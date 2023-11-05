@@ -1,0 +1,238 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.page{
+    width: 100%;
+    height: 100%;
+   background-image: linear-gradient(white,#eff1f0);
+   /* background-color: #eff1f0; */
+}
+.nav{
+    width: 100%;
+    height: 10vh;
+    background-image:linear-gradient(#fafafa,#fbfcfc,#dfdfdf);
+
+    /* background-color: antiquewhite; */
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 0 3vmax;
+}
+.logo{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+}
+.nav>ul{
+    display: flex;
+    gap: 4vmax;
+    list-style: none;
+    font-size: 1.4vmax;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.nav>ul>li:hover{
+    font-style: italic;
+    font-weight: 600;
+    cursor: pointer;
+}
+.mid{
+    width: 100%;
+    height: 90vh;
+    /* background-color: aqua; */
+    display: flex;
+}
+.left{
+    width: 50%;
+    height: 90vh;
+    background-image:linear-gradient(#fafafa,#fbfcfc,#e1e3e2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.left1{
+    width: 42%;
+    height: 40vh;
+    /* background-color: rgb(123, 243, 243); */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.left1>h3{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.left1>h1{
+    font-family: 'Roboto Mono', monospace;
+    padding-top: 1vmax;
+}
+.left1>p{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 1vmax;
+    padding-bottom: 1vmax;
+}
+.btm>button{
+    padding: 1vmax 2vmax;
+    margin-right: 1vmax;
+    background-color: rgb(88, 175, 175);
+    color: white;
+    font-size: 1.1vmax;
+    border: none;
+}
+.btm>button:hover{
+    /* background-color: rgb(4, 133, 133); */
+    font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: white;
+  background-color: #171717;
+  padding: 1em 2em;
+  border: none;
+  border-radius: .6rem;
+  position: relative;
+  cursor: pointer;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.btm>.org{
+    background-color: rgb(255, 151, 114);
+}
+.btm>.org:hover{
+    background-color: rgb(224, 67, 10);
+    cursor: pointer;
+}
+
+.right{
+    width: 50%;
+    height: 90vh;
+    background-color: #c6c6c7;
+ 
+    background-image: url(https://img.freepik.com/free-photo/portrait-young-beautiful-sportive-girl-white-background_176420-5493.jpg?w=826&t=st=1697709003~exp=1697709603~hmac=85aed7779b4d7065cbd45da6a1c0b1c2f3a5c4a6210853e97c1e3b5b7b34b4b4);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode:multiply;
+}
+
+/* -------------------------------------------------------------------------- */
+.page2{
+    width: 100%;
+    height: 100vh;
+    background-color: aliceblue;
+    display: flex;
+}
+.lefti{
+    width: 50%;
+    height: 100vh;
+    background-color: aquamarine;
+    background-image: url(https://cdn.shopify.com/s/files/1/0259/3665/8531/files/Half_Lotus_-_Ardha_Padmasana_01.png?v=1670432716);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode:multiply;
+
+}
+.righti{
+    width: 50%;
+    height: 100vh;
+    background-image:linear-gradient(#afadab,#b8babc,#ccd3d9,#d7e0e7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+.righti1{
+    width: 80%;
+    height: 50%;
+    /* background-color: #fff; */
+    font-size: 1.5vmax;
+}
+/* -------------------------------------------------------------------------- */
+.page3{
+    width: 100%;
+    height: 100vh;
+    background-image: url(https://7pranayama.com/wp-content/uploads/2021/06/Easy-Yoga-Poses.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    mix-blend-mode: multiply;
+}
+/* -------------------------------------------------------------------------- */
+.page4{
+    width: 100%;
+    height: 70vh;
+    background-image:linear-gradient(to right,#f6f6f6,#e4e4e4,#e4e4e4);
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.box1{
+    width: 20%;
+    height: 40vh;
+    background-color: #cecece;
+    box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+-webkit-box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+-moz-box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+border-radius: 10px;
+padding: 1vmax 2vmax;
+}
+ul{
+    list-style: none;
+    line-height: 2vmax;
+}
+.box1>p{
+    font-size: 1.5vmax;
+    margin-top: 2vmax;
+}
+.box1>.social>ul{
+    display: flex;
+    font-size: 2vmax;
+    margin-top: 2vmax;
+}
+.box2{
+    width: 20%;
+    height: 40vh;
+    background-color: #cecece;
+    box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+-webkit-box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+-moz-box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+border-radius: 10px;
+padding: 1vmax 2vmax;
+}
+.box2>ul{
+    font-size: 1.5vmax;
+    margin-top: 2vmax;
+}
+.box3{
+    width: 20%;
+    height: 40vh;
+        background-color: #cecece;
+    box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+-webkit-box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+-moz-box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+border-radius: 10px;
+padding: 1vmax 2vmax;
+}
+.box3>img{
+    mix-blend-mode: multiply;
+}
+.box4{
+    width: 20%;
+    height: 40vh;
+        background-color: #cecece;
+    box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+-webkit-box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+-moz-box-shadow: 11px 10px 5px 0px rgba(115, 115, 115, 0.75);
+border-radius: 10px;
+padding: 1vmax 2vmax;
+}
+.box4>p{
+    font-size: 1.4vmax;
+    margin-top: 1vmax;
+}
